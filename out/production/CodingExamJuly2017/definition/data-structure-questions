@@ -1,31 +1,84 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
+A. we create data structure once,but use data structure again and again. When we create is going to save in memory
+and then its easily we can use.
+
 What are the various operations that can be performed on different Data Structures?
+A. searching, deleting,inserting,shorting,merging etc Various operations that can be performed on different data structures.
+
 List out the areas in which data structures are applied extensively?
+A. Compiler design, operating system, database management system,graphics,simulation,statistical analysis package etc.
+
 what is an Array?
+A. An Array is a data structure that contains a group of elements.
+
 what is the difference between the Array and ArrayList?
+A. Array is static in size that is fixed length data structure. we cannot change array object.
+Arraylist is grows in size dynamicly.
+
 what is LinkedList?
+ A. LinkedList is a linear data structure, Where each element is a separate object.
+
 How is an Array different from Linked List?
+A. In array, each element is independent,no connection with previous elements.
+In linked list, location or address of elements is stored in the link part of previous element/node.
+
 what is queue?
+A. Queue is a subtype of java.util.collection interface. In queue have designed elements inserted and removed FIFO
+and LILO.
 what is stack?
+A. A stack is a data structure that allows data to be inserted and removed .In stack data to be inserted and removed LIFO
+ and FILO.
 what is FIFO and LIFO?
+A. FIFO is first in and first out. LIFO is last in first out.
+
 what is the order of complexity?
+A.  The order of complexity is the big O notation and an order of efficiency of algorithms. It can be used for space complexity or time complexity.
+
 what is the best case to search an element from an array?
+A. The best case running time of an algorithm is the function defined by the
+   minimum number of steps taken on any instance of size.
+
 what is the worst case to search an element from an array?
+A. The worst case running time of an algorithm is the function defined by
+   the maximum number of steps taken on any instance of size n.
+
 what is tree in data structure?
+A. In data structure Tree are made up of nodes.A common kind of tree is a binary tree.In that case which each
+node contains reference to two other nodes.
+
 what is graph in data structure?
+A. A graph is an object consisting of a vertex set and edge set.
+
 what is the difference between the HashTable and HashMap?
+A. The difference between the HashMap and HashTable is HashMap allows null key value and it is not syncronized.
+HashTable doesn,t allows null key value and it is syncronized.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+A. HasMap works in java based on the Hashing principle,but it si not a simple as it is sound.A true Hashing mechanism
+ should always return the same Hashcode()when it is applied to the same object.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
 What are the different ways of copying an array into another array?
+
 What is difference between an array and a linked list?
-What is DFS and BFS?
+ A. In array, each element is independent, no connection with previous element or with its location. In Linked list, location or address of elements is stored in the link part of previous element/node.
 What is Recursion?
+A. Recursion is a method of solving problems that involves breaking  down into smaller and smaller sub problems
+until you get to a small enough problem that is can be solved trivially.
+
 What are linear and non linear data Structures?
+A. Linear data structure which all the data are arranged in sequence manner,and non-linear data structure are in which
+all the data are arranged in Random manner.
+
 What is Big-(O)-notation?
+A. Big O notation is the language we use for articulating how long an algorithm takes to run.
+
 Outlined different kind of sorting algorithm with time complexity?
+A. Efficient sorts[edit] Practical general sorting algorithms are almost always based on an algorithm with average time complexity
+of which the most common are heapsort,marge sort,quicksort.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

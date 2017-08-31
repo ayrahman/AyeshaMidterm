@@ -18,9 +18,9 @@ import java.util.List;
  * This XmlReader class are using DOM parser to read data from XML.
  */
 
-public class XmlReader {
+	public class XmlReader {
 	
-	public List<Student> parseData(String tagName,String path) throws ParserConfigurationException, SAXException, IOException{
+	protected List<Student> parseData(String tagName, String path) throws ParserConfigurationException, SAXException, IOException{
 		
 	DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 	DocumentBuilder builder = factory.newDocumentBuilder();
@@ -60,11 +60,21 @@ public class XmlReader {
   }
 	
 	//This convert method need to be implemented.
-	public String convertIntToChar(String score){
-		String grade = "";
-		
-		
-		return grade;	
+	private String convertIntToChar(String score){
+		   String grade ="";
+		int sc = Integer.parseInt(score);
+		   if (sc >=80) {
+			   grade = "A";
+		   }else if(sc >= 70) {
+			   grade = "B";
+		   }else if(sc >=60){
+		   	grade = "C";
+		   }else if(sc >= 50) {
+			   grade = "D";
+		   }else{
+		   	grade = "f";
+		   }
+		return grade;
 	}
 	
 }

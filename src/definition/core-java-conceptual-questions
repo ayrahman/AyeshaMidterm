@@ -2,44 +2,131 @@ Please answer the below core-java Questions:
 
 
 What jdk contains or composed of and define each components?
+A.JRE allows you to run applications written in the java programming language. JDK contains the java vertual machine, classes comprising java platform and supporting files.JDK does not contain
+ Development tools such as compilers and debuggers.
+
 What is IDE?
+A. IDE is stand for Integrated development Environment. IDE is a software application used by programmers for code development.
+
 What are the IDEs available in the market to support java?
+A. JetBeans, Eclipse, Itellij,Jdeveloper,Android studio,JSource etc are the IDEs available in the market to support java.
+
 Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
-Why main is static?
-What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
-What is API? Name list of API that you have used so far.
+A. The entire java life cycle has use any text editor to create the high-level Java text file. This file is saved as a .java file on the disk.
+Then compile this text file using the java compiler, the result in a .class file being created on the disk. The .class file contains in the bytecode.
+Then the file is loaded in the memory by the class loader.The bytecode varifier confirms that the bytecodes are valide or not hostle.Finaly the JVM reads the bytecodes in memory and
+Traslates them in to machine code.
+
 Does java support multiple inheritance?
+A. Java doesn,t support multiple inheritance.
+
 What is method overloading and when it happens?
+A. Method everloading is having two methods with the same method name and parameters.Its happen when two or more methods
+ in one class have the same method name and deffirent parameters.
+
 Explain exceptions in java and how to handle it.
+A. Exception in java is shorthand for phase"exception event".An exception is indicate condition that a reasonable application
+should might be want to catch. The exception handled the powerful machanism to handle in the run time error,So that normal flow of the
+application can be maintained.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A. Static keyword in java is a variable.The static keyword belongs to the class then instance of the class.
+It can be used a variable,methids, and blocks.
+examples:public class Demo {
+ public static void main(String[] args){
+  Student s1 = new Student();
+  s1.showData();
+  Student s2 = new Student();
+  s2.showData();
+  }
+}
+    class Student{
+    int a;
+    static int b;
+    Student(){
+    b++;
+    }
+    public void showData(){
+    System.out.println("Value of a = "+a);
+    System.out.println("Value of b = "+b);
+    }
+    public static void increment(){
+    a++;
+    }
+  }
 What is final and how it has been used variables and methods?
+ A. Final in java very important keyword and can be applied to the class, method,and variables in java.
+ In java we use final keyword with variables specify its values are not to be changed.
+ But we can change the value in the constructo/methods of the class.
+
 What is final, finally and finalize?
+ A. Final is a keyword, Final class can not be inherited,Final method can not be override,final variable can not be changed.
+ Finally is used for place important code, it will be executed whether exception is handled or not. Finalize is used for
+ perform clean up processing just before object is garbage collected.
+
 What is a constructor ?
+A. A constructor is a special method of a class.A constructor is an instance of method that usually has the same name as a class.
+   and can be used to set the values of the members of an object.
+
 What is "this" keyword in java ?
+ A. "This" keyword in java is a reference variable.
+
 What is "super" keyword in java?
+ A. Super is a keyword in java.Its public and protected methods can be called by the super keyword.
+
 What is JVM stand for ?
+A. JVM is stand for java virtual machine.
+
 What version of java are you using?
+A. I am using Java version is "1.8.0_144".
+
 What is JAR stand for ?
+A. JAR is stand for Java ARchive. It is contains cuple class files and text files information.
+
 What is compile time and run time?
+ A. compilation process is referrd to compile time.A compiled program can be open and run by the user.
+ When an application running it is called runtime.
+
 What is heap?
-How java manage it's memory?
+A. Heap is an area of pre-reserved computer main storage.
+
+c How java manage memory?
 What is the difference between String, StringBuffer and StringBuilder?
-What is Singleton class?
+A. String is immutable,StringBuffer and StringBuilder is mutable.Then defference StringBuffer is  thread-safe.
+
+C What is Singlation?
+A. Singlation is a method by which an RFID reader identifies a tag with a specific serial number from a number of tags its fieled
+
 What is Serialization and Deserialization?
+A. Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk.
+The reverse process of creating object from sequence of bytes is called Deserialization.
+
 Which one will take more memory, an int or Integer?
+A. Integer.
+
 Why is String Immutable in Java?
+A. Connection or file would be changed and lead to serious security thread.
+
 What is constructor chaining in Java?
+A. In java is constructor chaining is the process of one constructor to another constructor with respect to current object
+within same class.Its can be done using this() keyword constructors the same class.
+
 The difference between Serial and Parallel Garbage Collector?
+A. Serial is Default copying collector which uses only one garbage collection thread for the garbage collection operation.
+And parallel garbage collector uses multiple garbage collection thread for the garbage collection operation.
+
 What is JIT stands for?
+A. JIT is stands for  "just in time".
+
 Explain Java Heap space and Garbage collection?
+A. Java Heap space is in the memory space for all information. Garbage collection  is one or mutiple garbage collection thread
+for the garbage collection operation.
+
 Can you guarantee the garbage collection process?
+A. No we can not do quarantee the garbage collection process.
+
 What is the difference between stack and heap in Java?
+A. The stack memory is used to store local variables,and Heap memory is used to store objects in java.
 
 
 

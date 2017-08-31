@@ -94,7 +94,7 @@ public class ConnectDB {
         return dataList;
     }
 
-    public void InsertDataFromArryToMySql(int [] ArrayData,String tableName, String columnName)
+    public void InsertDataFromArrayToMySql(int [] ArrayData,String tableName, String columnName)
     {
         try {
             connectToMySql();
@@ -236,7 +236,7 @@ public class ConnectDB {
         {
             String name = rs.getString("name");
             int id = rs.getInt("id");
-            //System.out.format("%s, %s\n", name, id);
+            System.out.format("%s, %s\n", name, id);
             user = new User(name,id);
             list.add(user);
 
@@ -262,4 +262,6 @@ public class ConnectDB {
 
     }
 
+    public void InsertDataFromArryToMySql(int[] num, String selection_sort, String sortingNumbers) {
+    }
 }
